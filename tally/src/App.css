@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer {
+  padding-top: 5%;
+  
+  align-content: center;
+}
+.stepsContainer{
+  padding-top: 5%;
+}

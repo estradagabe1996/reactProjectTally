@@ -4,7 +4,7 @@ const app = express()
 const bodyParser = require('body-parser')
 app.use(bodyParser.json()) // for parsing application/json
 const winston = require('winston');
-const { as } = require('pg-promise');
+// const { as } = require('pg-promise');
 const pgp = require('pg-promise')();
 const db = pgp("postgres://pnxlypfl:tpD5bwMq_YyFezD6beGMmGxjmuUy3bxk@ruby.db.elephantsql.com/pnxlypfl");
 
@@ -28,6 +28,24 @@ app.get ('/songs', async(req, res) => {
 
 
 // ____________________________________________________________________________________________
+
+app.get ('/users', async(req, res) => {
+    res.json(await db.many('SELECT * FROM tally'))
+})
+
+
+
+// ____________________________________________________________________________________________
+
+app.get ('/users/:id', async(req, res) => {
+    res.json(await db.many(`SELECT songOne FROM tally WHERE id = $1`, [req.query.id]))
+})
+
+
+// ____________________________________________________________________________________________
+
+
+
 
 app.listen(3001, ()=> {
     console.log("Server is running on port 3001");
