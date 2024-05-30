@@ -34,7 +34,7 @@ function Loginpage() {
         if(user === usersList[i] && password === pwList[i]) {
             setUID(users[i])
             console.log("type of : ", typeof(uID))
-            window.location = `http://localhost:3000/list/${users[i].id}`
+            window.location = `https://react-project-tally-redeploy.vercel.app/list/${users[i].id}`
         } else {
             console.log('Denied')
         }
