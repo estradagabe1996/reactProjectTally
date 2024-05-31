@@ -1,5 +1,17 @@
 
 
 .loginContainer {
-    padding-top: 15%;
+    padding-top: 8%;
+}
+
+.hideList {
+    visibility: hidden;
+}
+
+.loginTitle {
+    padding-top: 8%;
+}
+
+.deny{
+    color: red;
 }

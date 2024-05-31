@@ -1,0 +1,51 @@
+
+
+.mainContainer {
+    padding-bottom: 5%;
+    display: flex;
+    align-content: center;
+    
+    justify-content: center;
+    background-color: #787c7f;
+  
+}
+
+.stepsContainer{
+    
+}
+.getStarted{
+    padding-bottom: 5%;
+}
+
+.stepOne {
+    
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #6ca965;
+   
+}
+.stepTwo {
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+}
+.stepThree {
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #6ca965;
+}
+.stepFour {
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    
+}
+/* ____________________________________________________________________________________ */
+
+.practiceFlex{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
