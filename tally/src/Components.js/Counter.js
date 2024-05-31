@@ -17,7 +17,7 @@ function Counter() {
     <>
     <center>
 
-    <div><h1>{count}</h1><button onKeyDown={add} onClick={add}>^</button></div>
+    <div onKeyDown={add}><h1>{count}</h1><button  onClick={add}>^</button></div>
     
 
     </center>
