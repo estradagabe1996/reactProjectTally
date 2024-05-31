@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import '../style/main.css'
 
 
 function Main() {
@@ -10,11 +11,14 @@ function Main() {
             <center>
                 <h1>TALLY</h1>
                 <br/>
-                <h2>Welcome to Tally. A progress tracking application designed to bring focus back to your hobbies or studies. We here at Tally believe "practice makes perfect." But not all practice is good practice, in order to achieve the best results we provide guided sessions to assist our clients during practice sessions and earn the best results.</h2>
+                <h2>Welcome to Tally. A progress tracking application designed<br/> to bring focus back to your hobbies or studies. We here at Tally<br/> believe "practice makes perfect." But not all practice is good<br/> practice, in order to achieve the best results we provide guided<br/> sessions to assist our clients during practice sessions<br/> and earn the best results.</h2>
             </center>
         </div>
         <div className='stepsContainer'>
-            <center><h2>How to get started!</h2></center>
+
+            <div className='getStarted'>
+                <center><h2>How to get started!</h2></center>
+            </div>
             <div className='stepOne'>
                 <h2>Step 1</h2>
                 <h3>Begin by created a free account here!</h3>

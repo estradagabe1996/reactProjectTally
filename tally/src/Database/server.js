@@ -38,7 +38,7 @@ app.get ('/users', async(req, res) => {
 // ____________________________________________________________________________________________
 
 app.get ('/users/:id', async(req, res) => {
-    res.json(await db.many(`SELECT songOne FROM tally WHERE id = $1`, [req.query.id]))
+    res.json(await db.manyOrNone(`SELECT songOne FROM tally WHERE id = $1`, [req.query.id]))
 })
 
 

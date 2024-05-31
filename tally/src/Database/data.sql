@@ -26,4 +26,4 @@ CREATE TABLE tally (
 INSERT INTO tally (username,password,songOne,time,reps)
 VALUES 
 ('gabedababe', 'test123', 'Bring It On Home', 100, 50),
-('notjustinbieber', 'baby123', 'One Less Lonely Girl', 22, 11);
+('notjustinbieber', 'baby123', 'La La Land', 22, 11);

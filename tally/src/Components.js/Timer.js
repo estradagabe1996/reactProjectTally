@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
+
+// Timer component is functional but only counts down from 1 hour at the moment, would like to add more time incraments
+
 function Timer( {duration} ) {
 
   const [time, setTime] = useState(duration);
@@ -29,7 +32,7 @@ function Timer( {duration} ) {
     <div className='timer'>
       <div className='container'>
         <div className='timerContainer'>
-          {formatTime(time)}
+          <h1>{formatTime(time)}</h1>
         </div>
       </div>
     </div>
