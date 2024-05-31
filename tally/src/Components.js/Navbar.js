@@ -12,7 +12,7 @@ function Thenavbar() {
           <Navbar.Brand href="/">TALLY</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/login">LOGIN</Nav.Link>
-            <Nav.Link href="/checkout">CHECKOUT</Nav.Link>
+            <Nav.Link href="https://buy.stripe.com/test_dR6aH16Acb3LbaocMM">CHECKOUT</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
